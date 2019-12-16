@@ -1,4 +1,4 @@
-<h1 align="center">Instalación | Tips para Laravel 5.6</h1>
+<h1 align="center">Instalación | Datatables para Laravel 5.6</h1>
 
 # Pasos
 

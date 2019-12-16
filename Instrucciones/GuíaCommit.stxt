@@ -3,3 +3,24 @@ Commit - Creación del proyecto DataTables para laravel 5.6
   -composer create-project --prefer-dist laravel/laravel datatables-laravel56 "5.6.*"
   -Creación de la carpeta Instrucciones
     -Creación y edición del archivo GuíaCommits.txt
+Commit - Datatables en laravel
+  -Edición del nombre de la vista resources/views/welcome.blade.php por resources/views/index.blade.php
+  -Edición del archivo de rutas routes/web.php
+  -Edición de la vista resources/views/index.blade.php
+  -Creación de una Base de Datos manualmente desde HeidiSQL
+    -Nombre: datatables-laravel56
+  -Edición del archivo .env
+    -DB_DATABASE=datatables-laravel56
+    -DB_USERNAME=root
+    -DB_PASSWORD=  
+  -Creación del seeder UsersTableSeeder
+    -php artisan make:seeder UsersTableSeeder
+    -Edición del seeder UsersTableSeeder
+      -Edición de la función run()
+    -Edición del archivoDatabaseSeeder.php
+      -Descomentar: $this->call(UsersTableSeeder::class);
+  -Comando para ejecutar las migraciones y los seeders
+    -php artisan migrate:refresh --seed
+  Error: Edición del archivo readme.md
+    -Nombre del proyecto
+  Error: Es lenta la carga de información en datatable
