@@ -17,3 +17,6 @@ Route::get('/', function () {
     // return view('index', compact( 'users' ));
     return view('index');
 });
+
+/* Ruta /users */
+Route::resource( 'users', 'UserController' );

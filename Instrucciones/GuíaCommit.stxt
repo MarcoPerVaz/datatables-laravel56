@@ -37,3 +37,10 @@ Commit - Datatables y ajax en laravel
         -'DataTables' => Yajra\DataTables\Facades\DataTables::class,
   -Edición de la vista resources/views/index.blade.php
   -Edición del archivo de rutas routes/web.php
+Commit - Agregar botones de acción a datatables
+  -Edición de la vista index.blade.php
+  -Creación y edición de la vista actions.blade.php
+  -Edición del archivo de rutas routes/api.php
+  -Edición del archivo de rutas routes/web.php
+  -Creación del controlador UserController
+    -php artisan make:controller UserController
