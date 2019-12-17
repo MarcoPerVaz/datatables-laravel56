@@ -13,6 +13,7 @@
 
 /* Ruta / */
 Route::get('/', function () {
-    $users = App\User::all();
-    return view('index', compact( 'users' ));
+    // $users = App\User::all(); /* Se obtiene mediante ajax desde la vista index.blade.php */
+    // return view('index', compact( 'users' ));
+    return view('index');
 });

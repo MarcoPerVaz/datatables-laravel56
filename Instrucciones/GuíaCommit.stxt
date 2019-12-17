@@ -24,3 +24,16 @@ Commit - Datatables en laravel
   Error: Edición del archivo readme.md
     -Nombre del proyecto
   Error: Es lenta la carga de información en datatable
+Commit - Datatables y ajax en laravel
+  -Edición del archivo de rutas routes/api.php
+  -Instalación del paquete yajra/laravel-datatables-oracle
+    -https://packagist.org/packages/yajra/laravel-datatables-oracle
+    -Comando para instalar el paquete
+     -composer require yajra/laravel-datatables-oracle "8.7.1"
+    -Edición del archivo config/app.php
+      -Registro del provider
+        -Yajra\DataTables\DataTablesServiceProvider::class,
+      -Registro del alias
+        -'DataTables' => Yajra\DataTables\Facades\DataTables::class,
+  -Edición de la vista resources/views/index.blade.php
+  -Edición del archivo de rutas routes/web.php
