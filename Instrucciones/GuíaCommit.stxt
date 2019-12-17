@@ -44,3 +44,7 @@ Commit - Agregar botones de acción a datatables
   -Edición del archivo de rutas routes/web.php
   -Creación del controlador UserController
     -php artisan make:controller UserController
+Commit - Traducir datatables
+  -Edición de la vista index.blade.php
+    Nota: Al querer mostrar los 20,000 registros desde datatable, tarda en cargarlos
+<----------Fin---------->

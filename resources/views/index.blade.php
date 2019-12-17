@@ -17,10 +17,10 @@
             <table id="users" class="table">
                 <thead>
                     <tr>
-                        <th>ID</th>
+                        <th width="10px">ID</th>
                         <th>Nombre</th>
                         <th>Email</th>
-                        <th>&nbsp;</th>
+                        <th width="120px">&nbsp;</th>
                     </tr>
                 </thead>
             </table>
@@ -41,7 +41,26 @@
                         {data: 'name'},
                         {data: 'email'},
                         {data: 'btn'},
-                    ]
+                    ],
+                    "language": {
+                        "info": "_TOTAL_ registros",
+                        "search": "Buscar",
+                        "paginate": {
+                            "next": "Siguiente",
+                            "previous": "Anterior",
+                        },
+                        "lengthMenu": 'Mostrar <select>' + 
+                            '<option value="10">10</option>' + 
+                            '<option value="30">30</option>' + 
+                            '<option value="-1">Todos</option>' + 
+                            '</select> registros',
+                         "loadingRecords": "Cargando...",
+                         "processing": "Procesando...",
+                         "emptyTable": "No hay datos",
+                         "zeroRecords": "No hay coincidencias",
+                         "infoEmpty": "izq",
+                         "infoFiltered": "der",
+                    }
                 });
             } );
         </script>
